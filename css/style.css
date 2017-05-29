@@ -2,3 +2,79 @@
 	margin-bottom: 0px;
 	border-radius: 0px;
 }
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bg-profile {
+    background-color: #c7a693;
+}
+
+.cover-profile {
+	color: #856046;
+}
+
+.cover-profile img.cover-image{
+    z-index: 0;
+    width: 100%;  
+    margin-bottom: 10px;
+}
+
+.cover-profile-image {
+	margin: -150px 10px 0px 50px;
+    z-index: 1;
+    width: 20%; 
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+@media (max-width:768px) {
+
+	.cover-profile-image {
+		margin: -45px 10px 0px 25px;
+	    z-index: 1;
+	    width: 20%; 
+	}
+.cover-profile-text>h1 {
+	font-weight: 700;
+	font-size: 27px;
+}
+.cover-profile-text>h3 {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+}
+@media (max-width: 768px) {
+	.mt-20{
+margin-top: 20px;
+	}
+.navpills>li>a {
+	color: #fff;
+}
+.navpills>li>a:hover {
+	color: #856046;
+	background-color: #5e0231;
+}
+.bgcontact{
+	background-image: url("../images/background.png");
+}
+.md-20{
+	margin-bottom: 20px;
+}
+.header {
+	color: #fff
+	font-size:27px;
+    padding: 10px;
+}
+.formicon {
+	font-size: 25px;
+	color: #b1bf7c;
+}
+}
+@media	(max-width: 768px) {
+
+}
